@@ -1,0 +1,237 @@
+body {
+    background-color: var(--color-gray);
+    font-family: "Roboto", sans-serif;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+    height: 100%;
+    padding: 14em 6em;
+}
+
+.container-fluid {
+    width: 650px;
+    height: 749px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-head {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 500px;
+    height: 30px;
+    padding: 0em 0.8em;
+    font-family: var(--font-base);
+    color: var(--color-black);
+    font-size: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    height: 849px;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.input-box {
+    width: 500px;
+    height: 47px;
+    padding: 7px;
+    border: none;
+    border: 1px solid var(--color-red);
+    border-radius: 9px;
+    outline: none;
+    font-size: 20px;
+}
+
+.button-container {
+    padding: 3em 0;
+}
+.sign-button {
+    width: 500px;
+    height: 54px;
+    background-color: var(--color-red);
+    border: none;
+    font-size: 16px;
+    font-family: var(--font-alt);
+    border-radius: 10px;
+}
+
+.line {
+    width: 500px;
+    margin-top: 2em;
+}
+
+.g-container {
+    padding: 0em 0;
+}
+
+.g-button {
+    width: 350px;
+    height: 54px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(219, 15, 15, 0.3);
+}
+.g-text {
+    font-size: 16px;
+    font-family: var(--font-alt);
+}
+.b-text {
+    font-family: var(--font-alt);
+    font-size: 16px;
+    padding: 1em 0;
+}
+.s-text {
+    font-family: var(--font-alt);
+    font-size: 16px;
+    color: var(--color-red);
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1300px;
+    font-family: var(--font-base);
+    font-size: 48px;
+    height: 800px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1800px) {
+    .form-container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 85%;
+        padding: 2.5em 0em;
+    }
+
+    .container-fluid {
+        width: 450px;
+        height: 600px;
+        border-radius: 40px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sign-head {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 300px;
+        height: 30px;
+        padding: 0em 0.8em;
+        font-family: var(--font-base);
+        color: var(--color-black);
+        font-size: 40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 450px;
+        height: 500px;
+    }
+
+    .form-label {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 300px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .input-box {
+        width: 300px;
+        height: 47px;
+        padding: 7px;
+        border: none;
+        border: 1px solid var(--color-red);
+        border-radius: 9px;
+        outline: none;
+        font-size: 20px;
+    }
+
+    .button-container {
+        padding: 2em 0;
+    }
+    .sign-button {
+        width: 300px;
+        height: 54px;
+        background-color: var(--color-red);
+        border: none;
+        font-size: 16px;
+        font-family: var(--font-alt);
+        border-radius: 10px;
+    }
+    .line {
+        width: 300px;
+        margin-top: 2em;
+    }
+    .g-container {
+        padding: 0em 0;
+    }
+
+    .g-button {
+        width: 350px;
+        height: 54px;
+        border: none;
+        border-radius: 10px;
+        background: rgba(219, 15, 15, 0.3);
+    }
+    .g-text {
+        font-size: 16px;
+        font-family: var(--font-alt);
+    }
+    .b-text {
+        font-family: var(--font-alt);
+        font-size: 16px;
+        padding: 1em 0;
+    }
+    .s-text {
+        font-family: var(--font-alt);
+        font-size: 16px;
+        color: var(--color-red);
+    }
+    .head-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 800px;
+        height: 500px;
+        font-family: var(--font-base);
+        font-size: 30px;
+    }
+}

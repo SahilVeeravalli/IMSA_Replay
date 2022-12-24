@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap");
+
+:root {
+    --font-base: "Abril Fatface", serif;
+    --font-alt: "Poppins", sans-serif;
+
+    --color-red: #eb4335;
+    --color-black: #000000;
+    --color-gray: #ece9e9;
+}
